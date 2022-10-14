@@ -5,7 +5,7 @@
  
  const HTTP_PORT = process.env.PORT || 3000;
  
- const MoviesDB = require("../modules/moviesDB");
+ const MoviesDB = require("./modules/moviesDB");
  const db = new MoviesDB();
  
  require("dotenv").config();
